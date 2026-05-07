@@ -24,3 +24,17 @@ This project is based on SIEM log analysis using Splunk. It helps detect failed 
 index=main "failed password"
 | stats count by src_ip
 | sort -count
+
+Brute Force Detection
+index=main "failed password"
+| stats count by src_ip
+| where count > 5
+| sort -count
+
+Top Source IPs
+index=main| top src_ip
+
+Successful Login Detection
+index=main "Accepted password"
+| stats count by user
+| sort -count
