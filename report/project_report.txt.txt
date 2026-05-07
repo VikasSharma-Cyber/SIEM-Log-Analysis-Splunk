@@ -1,0 +1,22 @@
+SIEM Log Analysis & Threat Detection using Splunk
+
+Project Overview:
+This project demonstrates beginner-level SIEM operations using Splunk. Authentication logs were analyzed to detect failed login attempts, brute-force attacks, and suspicious IP activities.
+
+Tasks Performed:
+
+* Uploaded authentication logs into Splunk
+* Created SPL queries for security monitoring
+* Detected brute-force attacks
+* Identified top attacker IPs
+* Monitored successful logins
+* Created visualizations and dashboards
+
+Tools Used:
+
+* Splunk
+* SPL
+* Authentication Logs
+
+Outcome:
+Successfully performed basic SOC monitoring and threat detection using Splunk SIEM.
