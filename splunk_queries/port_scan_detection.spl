@@ -1,3 +1,7 @@
 index=main
 | stats dc(dest_port) as unique_ports by src_ip
 | where unique_ports > 20
+
+
+
+➡ Multiple ports scan karne wali IP detect.

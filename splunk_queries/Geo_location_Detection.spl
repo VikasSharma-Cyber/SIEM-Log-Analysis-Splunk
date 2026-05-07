@@ -1,0 +1,8 @@
+index=main
+| iplocation src_ip
+| stats count by Country
+
+
+
+
+➡ Country-wise attacks

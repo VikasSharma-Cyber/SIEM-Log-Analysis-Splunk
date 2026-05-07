@@ -1,0 +1,6 @@
+index=main status=404 OR status=500
+| stats count by status
+
+
+
+➡ Web server errors detect.

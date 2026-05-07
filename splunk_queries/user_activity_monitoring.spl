@@ -1,0 +1,5 @@
+index=main
+| stats count by user action
+
+
+➡ User actions monitor.
