@@ -15,7 +15,7 @@ This project is based on SIEM log analysis using Splunk. It helps detect failed 
 - Failed login detection
 - Brute-force detection
 - Dashboard creation
-- Alert generation
+- Alert generation 
 
 ## SPL Queries
 
